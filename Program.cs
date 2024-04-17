@@ -149,8 +149,8 @@ namespace csharp_typesystem_snacks
                     Console.WriteLine(myArray[i]);
                 }
             }
-            */ 
-            {
+            */
+            /*            {
                 //---snack 8
                 //crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari.
                 int[] integerArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
@@ -162,8 +162,14 @@ namespace csharp_typesystem_snacks
                 }
                 Console.WriteLine($"La somma totale è: {sum}");
             }
+            */
+            {
             //---snack 9
-            //crea un array vuoto e chiedi all’utente un numero da inserire nell’array.continua a chiedere i numeri all’utente e a inserirli nell’array, fino a quando la somma degli elementi è minore di 50.
+            //crea un array vuoto e chiedi all’utente un numero da inserire nell’array.continua a chiedere i numeri all’utente e a inserirli
+            //nell’array, fino a quando la somma degli elementi è minore di 50.
+
+            }
+
             //---snack 10
             //fai inserire un numero, che chiameremo n, all’utente.
             //genera n array, ognuno formato da 10 numeri casuali tra 1 e 100.

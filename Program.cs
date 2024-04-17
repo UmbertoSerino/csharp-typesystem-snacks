@@ -197,7 +197,22 @@ namespace csharp_typesystem_snacks
             */
             //---snack 10
             //fai inserire un numero, che chiameremo n, all’utente.
+            Console.WriteLine("Quanti Array vuoi creare?");
+            int n = Convert.ToInt32(Console.ReadLine());
+            Random rnd = new Random();
+
+            for (int i = 0; i < n; i++)
+            {
             //genera n array, ognuno formato da 10 numeri casuali tra 1 e 100.
+                Console.WriteLine($"Array numero: {i + 1}");
+                int[] arrays = new int[10];
+                for (int j = 0; j < arrays.Length; j++)
+                {
+                    arrays[j] = rnd.Next(1, 100);
+                    Console.WriteLine(arrays[j]);
+
+                }
+            }
             //ogni volta che ne crei uno, stampalo a schermo.
             //buon lavoro!
         }
